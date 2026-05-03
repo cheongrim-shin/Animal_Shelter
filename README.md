@@ -196,15 +196,4 @@ resources/
 
 ## 라이선스 / 사용
 
-본 저장소는 학원 팀 프로젝트의 학습 목적 결과물입니다. 코드 열람·참고는 자유이며 상업적 이용은 권장하지 않습니다.
-프로젝트 내 사용된 폰트는 Microsoft 맑은고딕(Windows 시스템 폰트)으로 해당 라이선스를 따릅니다.
-
----
-
-## 담당자 정보
-
-**신청림 (Shin Cheongrim)** — Java Backend Developer
-
-- GitHub: [@cheongrim-shin](https://github.com/cheongrim-shin)
-- Email: dribble037@gmail.com
-- 소속: 대덕인재개발원 2025년 15기 · 전자정부 프레임워크 & React(AWS) 기반 풀-스택 개발자 양성과정
+본 저장소는 학원
