@@ -7,12 +7,12 @@
 ![Servlet](https://img.shields.io/badge/Jakarta_Servlet-6.0-005571)
 ![MyBatis](https://img.shields.io/badge/MyBatis-3.5.14-212F3D)
 ![Oracle](https://img.shields.io/badge/Oracle-21c_XE-C74634?logo=oracle&logoColor=white)
-![Tomcat](https://img.shields.io/badge/Apache_Tomcat-9-F8DC75?logo=apachetomcat&logoColor=black)
+![Tomcat](https://img.shields.io/badge/Apache_Tomcat-10.1-F8DC75?logo=apachetomcat&logoColor=black)
 ![License](https://img.shields.io/badge/Project_Type-학원_팀_프로젝트-orange)
 
 ---
 
-## 📌 프로젝트 개요
+## 프로젝트 개요
 
 | 항목 | 내용 |
 |---|---|
@@ -24,7 +24,7 @@
 
 ---
 
-## 👤 본인 담당 영역 (신청림)
+## 본인 담당 영역 (신청림)
 
 `support` · `donation` · `admin/main` 도메인을 단독으로 담당했습니다. **약 2,000줄** (Java + MyBatis Mapper).
 
@@ -57,7 +57,7 @@
 
 ---
 
-## 🛠 기술 스택
+## 기술 스택
 
 | 분류 | 사용 기술 |
 |---|---|
@@ -68,12 +68,12 @@
 | **보안** | AES 암호화 (직접 구현) · BCrypt |
 | **라이브러리** | iText (PDF) · Apache POI · Chart.js · Leaflet.js · JavaMail (SMTP) |
 | **외부 API** | Daum 주소 API |
-| **빌드/IDE** | Maven · Eclipse 2024-09-R · Tomcat 9 |
+| **개발 환경** | Eclipse 2024-09-R · Apache Tomcat 10.1 |
 | **협업** | SVN 형상관리 · Redmine |
 
 ---
 
-## 🖼 화면
+## 화면
 
 ### 1:1 문의 시스템
 | 사용자 — 문의 목록 | 관리자 — 문의 관리 |
@@ -92,12 +92,12 @@
 
 ---
 
-## 🔧 실행 방법
+## 실행 방법
 
 ### 사전 준비
 
 - JDK 17 이상
-- Apache Tomcat 9
+- Apache Tomcat 10.1
 - Oracle 21c XE
 - Eclipse 2024-09 + EGit (또는 IntelliJ)
 
@@ -123,13 +123,14 @@ final String password = "YOUR_APP_PASSWORD";  // Gmail 앱 비밀번호
 
 ### 빌드 & 실행
 
-1. Eclipse에서 **Import → Existing Maven Project** 로 가져오기
-2. Tomcat 9 서버에 추가
-3. 브라우저에서 `http://localhost:8080/Animal_Shelter/main.do` 접속
+1. Eclipse에서 **Import → Existing Projects into Workspace** 로 가져오기
+2. 프로젝트 우클릭 → **Properties → Java Build Path → Libraries** 탭에서 `src/main/webapp/WEB-INF/lib` 안의 jar 파일들이 인식되는지 확인
+3. Tomcat 10.1 서버에 추가 → Run on Server
+4. 브라우저에서 `http://localhost:8080/Animal_Shelter/main.do` 접속
 
 ---
 
-## 📂 프로젝트 구조 (담당 영역 기준)
+## 프로젝트 구조 (담당 영역 기준)
 
 ```
 src/main/java/kr/or/ddit/
@@ -164,7 +165,7 @@ resources/
 
 ---
 
-## 🚧 어려웠던 점 & 해결 방법
+## 어려웠던 점 & 해결 방법
 
 | 문제 상황 | 해결 방법 |
 |---|---|
@@ -175,7 +176,7 @@ resources/
 
 ---
 
-## 🎯 학습 포인트 & 향후 개선
+## 학습 포인트 & 향후 개선
 
 ### 배운 것
 - MVC 패턴 — Controller → Service → DAO → Mapper 흐름 체득
@@ -193,14 +194,14 @@ resources/
 
 ---
 
-## 📜 라이선스 / 사용
+## 라이선스 / 사용
 
 본 저장소는 학원 팀 프로젝트의 학습 목적 결과물입니다. 코드 열람·참고는 자유이며 상업적 이용은 권장하지 않습니다.
 프로젝트 내 사용된 폰트는 Microsoft 맑은고딕(Windows 시스템 폰트)으로 해당 라이선스를 따릅니다.
 
 ---
 
-## 👨‍💻 담당자 정보
+## 담당자 정보
 
 **신청림 (Shin Cheongrim)** — Java Backend Developer
 
