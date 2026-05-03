@@ -20,7 +20,7 @@
 | **팀 구성** | 5인 팀 프로젝트 |
 | **데이터베이스** | Oracle 21c XE (총 24개 테이블) |
 | **협업 도구** | SVN 형상관리 · Redmine 이슈 트래킹 |
-| **소속** | 대덕인재개발원 2025년 15기 · Java 웹 개발자 과정 |
+| **소속** | 대덕인재개발원 2025년 15기 · 전자정부 프레임워크 & React(AWS) 기반 풀-스택 개발자 양성과정 |
 
 ---
 
@@ -207,4 +207,4 @@ resources/
 
 - GitHub: [@cheongrim-shin](https://github.com/cheongrim-shin)
 - Email: dribble037@gmail.com
-- 소속: 대덕인재개발원 2025년 15기 · Java 웹 개발자 과정
+- 소속: 대덕인재개발원 2025년 15기 · 전자정부 프레임워크 & React(AWS) 기반 풀-스택 개발자 양성과정
