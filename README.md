@@ -206,4 +206,4 @@ resources/
 
 - GitHub: [@cheongrim-shin](https://github.com/cheongrim-shin)
 - Email: dribble037@gmail.com
-- 소속: 대덕인재개발원 2025년 15기 · Java 웹 개발자 과정
+- 소속: 대덕인재개발원 2025년 15기 - 전자정부 프레임워크 & React(AWS) 기반 풀-스택 개발자 양성과정
