@@ -26,6 +26,8 @@
 
 ## 본인 담당 영역 (신청림)
 
+> 본 저장소는 5인 팀 프로젝트의 결과물이며, 본 README는 신청림이 **단독 담당한 영역**을 중심으로 정리한 것입니다.
+
 `support` · `donation` · `admin/main` 도메인을 단독으로 담당했습니다. **약 2,000줄** (Java + MyBatis Mapper).
 
 ### 1. 1:1 문의 시스템 (사용자/관리자)
@@ -64,7 +66,7 @@
 | **언어** | Java 17 (Jakarta EE Servlet) |
 | **백엔드** | Servlet · MyBatis 3.5.14 |
 | **DB** | Oracle 21c XE · SQL Developer |
-| **프론트엔드** | JSP · HTML5 · CSS3 · JavaScript · jQuery |
+| **프론트엔드** | JSP · HTML5 · CSS3 · JavaScript |
 | **보안** | AES 암호화 (직접 구현) · BCrypt |
 | **라이브러리** | iText (PDF) · Apache POI · Chart.js · Leaflet.js · JavaMail (SMTP) |
 | **외부 API** | Daum 주소 API |
