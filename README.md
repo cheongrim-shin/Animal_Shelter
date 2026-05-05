@@ -3,7 +3,7 @@
 > 유기동물 보호소 운영을 위한 통합 웹 플랫폼.
 > 입양 신청, 봉사 모집, 후원 시스템, 1:1 문의, 관리자 대시보드를 한 곳에 묶었습니다.
 
-![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=java&logoColor=white)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=java&logoColor=white)
 ![Servlet](https://img.shields.io/badge/Jakarta_Servlet-6.0-005571)
 ![MyBatis](https://img.shields.io/badge/MyBatis-3.5.14-212F3D)
 ![Oracle](https://img.shields.io/badge/Oracle-21c_XE-C74634?logo=oracle&logoColor=white)
@@ -63,7 +63,7 @@
 
 | 분류 | 사용 기술 |
 |---|---|
-| **언어** | Java 17 (Jakarta EE Servlet) |
+| **언어** | Java 21 (Jakarta EE Servlet) |
 | **백엔드** | Servlet · MyBatis 3.5.14 |
 | **DB** | Oracle 21c XE · SQL Developer |
 | **프론트엔드** | JSP · HTML5 · CSS3 · JavaScript |
@@ -98,7 +98,7 @@
 
 ### 사전 준비
 
-- JDK 17 이상
+- JDK 21 이상
 - Apache Tomcat 10.1
 - Oracle 21c XE
 - Eclipse 2024-09 + EGit (또는 IntelliJ)
