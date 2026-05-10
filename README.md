@@ -187,13 +187,6 @@ resources/
 - 문서 생성 — iText로 한글 PDF 직접 임베드
 - 팀 협업 — SVN 형상관리, Redmine 이슈 트래킹, 5인 역할 분담
 
-### 향후 개선 계획
-- [ ] **AES/ECB → CBC + 랜덤 IV + KMS 키 분리**로 암호화 강화 (현재 학습용 하드코딩 키 사용 중)
-- [ ] AES 키 환경변수 분리
-- [ ] 영수증 목록 페이징 추가 구현
-- [ ] Spring Framework / Spring Boot 기반으로 리팩토링
-- [ ] SVN → Git 워크플로우 전환 (완료)
-
 ---
 
 ## 라이선스 / 사용
