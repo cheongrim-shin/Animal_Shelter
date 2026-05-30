@@ -28,7 +28,7 @@
 
 > 본 저장소는 5인 팀 프로젝트의 결과물이며, 본 README는 신청림이 **단독 담당한 영역**을 중심으로 정리한 것입니다.
 
-`support` · `donation` · `admin/main` 도메인을 단독으로 담당했습니다. **약 2,000줄** (Java + MyBatis Mapper).
+`support` · `donation` · `admin/main` 도메인을 단독으로 담당했습니다. (Java + MyBatis Mapper).
 
 ### 1. 1:1 문의 시스템 (사용자/관리자)
 `src/main/java/kr/or/ddit/support/`
