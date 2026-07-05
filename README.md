@@ -26,7 +26,7 @@
 
 ## 본인 담당 영역 (신청림)
 
-> 본 저장소는 5인 팀 프로젝트의 결과물이며, 본 README는 신청림이 **단독 담당한 영역**을 중심으로 정리한 것입니다.
+> 본 저장소는 5인 팀 프로젝트의 결과물이며, 본 README는 **단독 담당한 영역**을 중심으로 정리한 것입니다.
 
 `support` · `donation` · `admin/main` 도메인을 단독으로 담당했습니다. (Java + MyBatis Mapper).
 
@@ -43,10 +43,10 @@
 `src/main/java/kr/or/ddit/donation/`
 
 - 최소 1,000원 유효성 검사, 후원 성공 시 회원 `IS_DONOR` 컬럼 즉시 갱신
-- **AES 암호화 직접 구현** (`AESUtil.java`) — 기부자 주민번호 암호화 저장
+- **AES 암호화 구현(학습용)** (`AESUtil.java`) — 기부자 주민번호 암호화 저장
 - **iText로 A4 PDF 자동 생성** (`DonationReceiptDownload.java`)
   - 한글 폰트(맑은고딕) BaseFont 직접 임베드
-  - 직인 도장을 `PdfTemplate`으로 코드로 직접 구현 (외부 이미지 없음)
+  - 직인 도장을 `PdfTemplate`으로 코드로 구현 (외부 이미지 없음)
 - 관리자 후원 목록: 날짜·금액·유형 필터 + 우수 기부자 TOP 5 랭킹
 
 ### 3. 관리자 대시보드 메인
@@ -67,8 +67,8 @@
 | **백엔드** | Servlet · MyBatis 3.5.14 |
 | **DB** | Oracle 21c XE · SQL Developer |
 | **프론트엔드** | JSP · HTML5 · CSS3 · JavaScript |
-| **보안** | AES 암호화 (직접 구현) · BCrypt |
-| **라이브러리** | iText (PDF) · Apache POI · Chart.js · Leaflet.js · JavaMail (SMTP) |
+| **보안** | AES 암호화 · BCrypt |
+| **라이브러리** | iText(PDF) · Apache POI · Chart.js · Leaflet.js · JavaMail (SMTP) |
 | **외부 API** | Daum 주소 API |
 | **개발 환경** | Eclipse 2024-09-R · Apache Tomcat 10.1 |
 | **협업** | SVN 형상관리 · Redmine |
@@ -147,7 +147,7 @@ src/main/java/kr/or/ddit/
 │   ├── dao/
 │   ├── service/
 │   └── vo/
-│       ├── AESUtil.java                  (AES 암호화 직접 구현)
+│       ├── AESUtil.java                  (AES 암호화 구현-학습용)
 │       └── DonationVO.java
 └── support/                             ⭐ 본인 담당 — 1:1 문의 도메인 전체
     ├── controller/  (CRUD 컨트롤러 분리)
@@ -200,5 +200,5 @@ resources/
 **신청림 (Shin Cheongrim)** — Java Backend Developer
 
 - GitHub: [@cheongrim-shin](https://github.com/cheongrim-shin)
-- Email: dribble037@gmail.com
+- Email: dribble7@naver.com
 - 소속: 대덕인재개발원 2025년 15기 · 전자정부 프레임워크 & React(AWS) 기반 풀-스택 개발자 양성과정
